@@ -1,0 +1,482 @@
+[
+  {
+    "no": 1,
+    "song": "Mc Mca",
+    "artist": "Wakadinali",
+    "album_cover": "https://i.scdn.co/image/ab67616d0000b2739319b1da40f861a4b8a321bb"
+  },
+  {
+    "no": 2,
+    "song": "Umoroto",
+    "artist": "Wakadinali",
+    "album_cover": "https://i.scdn.co/image/ab67616d0000b273b2543c972887ba28ecc9ff9d"
+  },
+  {
+    "no": 3,
+    "song": "LOCATION 58",
+    "artist": "BURUKLYN BOYZ",
+    "album_cover": "https://i.scdn.co/image/ab67616d0000b273e67e845317f8a526a1bd060d"
+  },
+  {
+    "no": 4,
+    "song": "Corns (Freestyle)",
+    "artist": "BURUKLYN BOYZ",
+    "album_cover": "https://i.scdn.co/image/ab67616d0000b273a669cc187010205de7d4a08a"
+  },
+  {
+    "no": 5,
+    "song": "Eye contact",
+    "artist": "Wakadinali",
+    "album_cover": "https://i.scdn.co/image/ab67616d0000b2730f1d039b42d7dd18a9f46aff"
+  },
+  {
+    "no": 6,
+    "song": "Rong",
+    "artist": "NATTY",
+    "album_cover": "https://i.scdn.co/image/ab67616d0000b273286002dbf1c5f6fedf50eee6"
+  },
+  {
+    "no": 7,
+    "song": "Dream Ya Kutoka Kwa Block",
+    "artist": "BURUKLYN BOYZ",
+    "album_cover": "https://i.scdn.co/image/ab67616d0000b27362a9393e42017eda4206280d"
+  },
+  {
+    "no": 8,
+    "song": "Triple XL",
+    "artist": "Wakadinali",
+    "album_cover": "https://i.scdn.co/image/ab67616d0000b27304e82c874ff98f78a2e57188"
+  },
+  {
+    "no": 9,
+    "song": "Triple XL",
+    "artist": "Wakadinali",
+    "album_cover": "https://i.scdn.co/image/ab67616d0000b27344a6954afffb25b120797ba2"
+  },
+  {
+    "no": 10,
+    "song": "Nairobi",
+    "artist": "BURUKLYN BOYZ",
+    "album_cover": "https://i.scdn.co/image/ab67616d0000b273fcfc81fa87a9b800f80843d2"
+  },
+  {
+    "no": 11,
+    "song": "Wild",
+    "artist": "AJAY",
+    "album_cover": "https://i.scdn.co/image/ab67616d0000b2734e41bf4f4c54f8b581eff433"
+  },
+  {
+    "no": 12,
+    "song": "Nyaranyara",
+    "artist": "Wakadinali",
+    "album_cover": "https://i.scdn.co/image/ab67616d0000b27344a6954afffb25b120797ba2"
+  },
+  {
+    "no": 13,
+    "song": "Billie Jean",
+    "artist": "BURUKLYN BOYZ",
+    "album_cover": "https://i.scdn.co/image/ab67616d0000b27355554d6ab3f06f33e7f8acae"
+  },
+  {
+    "no": 14,
+    "song": "Shash Na Lipgloss",
+    "artist": "Maandy",
+    "album_cover": "https://i.scdn.co/image/ab67616d0000b27336db24f3104507fa6a690295"
+  },
+  {
+    "no": 15,
+    "song": "Table Manners",
+    "artist": "Jovie Jovv",
+    "album_cover": "https://i.scdn.co/image/ab67616d0000b273411787578615d219c51f0905"
+  },
+  {
+    "no": 16,
+    "song": "Rong Cypher",
+    "artist": "Wakadinali",
+    "album_cover": "https://i.scdn.co/image/ab67616d0000b273be9d00c498a3dc9d1209620f"
+  },
+  {
+    "no": 17,
+    "song": "Extra Pressure",
+    "artist": "Wakadinali",
+    "album_cover": "https://i.scdn.co/image/ab67616d0000b27344a6954afffb25b120797ba2"
+  },
+  {
+    "no": 18,
+    "song": "Peptang",
+    "artist": "NATTY",
+    "album_cover": "https://i.scdn.co/image/ab67616d0000b273d61a35123ddb7e71fcc970d4"
+  },
+  {
+    "no": 19,
+    "song": "Njege/Sanse",
+    "artist": "Wakadinali",
+    "album_cover": "https://i.scdn.co/image/ab67616d0000b27344a6954afffb25b120797ba2"
+  },
+  {
+    "no": 20,
+    "song": "4 Flow",
+    "artist": "NATTY",
+    "album_cover": "https://i.scdn.co/image/ab67616d0000b27384c0e5539edf5b8aa38da619"
+  },
+  {
+    "no": 21,
+    "song": "Morio Anzenza",
+    "artist": "Wakadinali",
+    "album_cover": "https://i.scdn.co/image/ab67616d0000b27330991a2ed43243c161fc3424"
+  },
+  {
+    "no": 22,
+    "song": "Joho",
+    "artist": "Wakadinali",
+    "album_cover": "https://i.scdn.co/image/ab67616d0000b2736c34a34e6b308b07320c0a62"
+  },
+  {
+    "no": 23,
+    "song": "Sicheki",
+    "artist": "Maandy",
+    "album_cover": "https://i.scdn.co/image/ab67616d0000b273ecfce6d20ec741f7b82d6f3a"
+  },
+  {
+    "no": 24,
+    "song": "Avoid Those People",
+    "artist": "Wakadinali",
+    "album_cover": "https://i.scdn.co/image/ab67616d0000b27344a6954afffb25b120797ba2"
+  },
+  {
+    "no": 25,
+    "song": "Mangana Manangos",
+    "artist": "Wakadinali",
+    "album_cover": "https://i.scdn.co/image/ab67616d0000b273aee9e351a9b528ab55aa66d6"
+  },
+  {
+    "no": 26,
+    "song": "Mbona",
+    "artist": "Boutross",
+    "album_cover": "https://i.scdn.co/image/ab67616d0000b2730a5d6a6ab5dd98abb4a19613"
+  },
+  {
+    "no": 27,
+    "song": "Thot List",
+    "artist": "Jovie Jovv",
+    "album_cover": "https://i.scdn.co/image/ab67616d0000b273160f1dadfab9f9e3ded7db14"
+  },
+  {
+    "no": 28,
+    "song": "Kiasi",
+    "artist": "Jovie Jovv",
+    "album_cover": "https://i.scdn.co/image/ab67616d0000b2731587fbc2c2b71af56e21928c"
+  },
+  {
+    "no": 29,
+    "song": "DWMD",
+    "artist": "Jovie Jovv",
+    "album_cover": "https://i.scdn.co/image/ab67616d0000b273160f1dadfab9f9e3ded7db14"
+  },
+  {
+    "no": 30,
+    "song": "Diego",
+    "artist": "Jovie Jovv",
+    "album_cover": "https://i.scdn.co/image/ab67616d0000b273160f1dadfab9f9e3ded7db14"
+  },
+  {
+    "no": 31,
+    "song": "Scar Mkadinali \"Kovu\"",
+    "artist": "Wakadinali",
+    "album_cover": "https://i.scdn.co/image/ab67616d0000b27319a56666ddd7ea595a02124a"
+  },
+  {
+    "no": 32,
+    "song": "Love Song",
+    "artist": "Wakadinali",
+    "album_cover": "https://i.scdn.co/image/ab67616d0000b27344a6954afffb25b120797ba2"
+  },
+  {
+    "no": 33,
+    "song": "Dilated",
+    "artist": "Wakadinali",
+    "album_cover": "https://i.scdn.co/image/ab67616d0000b27344a6954afffb25b120797ba2"
+  },
+  {
+    "no": 34,
+    "song": "Kitu Nono",
+    "artist": "Breeder LW",
+    "album_cover": "https://i.scdn.co/image/ab67616d0000b273c64af32ae143e666b68e2800"
+  },
+  {
+    "no": 35,
+    "song": "Johnson Johnson",
+    "artist": "Domani",
+    "album_cover": "https://i.scdn.co/image/ab67616d0000b2731d86f836e371b6684bec21de"
+  },
+  {
+    "no": 36,
+    "song": "Shosh Gwangi",
+    "artist": "Domani",
+    "album_cover": "https://i.scdn.co/image/ab67616d0000b2731d86f836e371b6684bec21de"
+  },
+  {
+    "no": 37,
+    "song": "X Bosses",
+    "artist": "Domani",
+    "album_cover": "https://i.scdn.co/image/ab67616d0000b2731d86f836e371b6684bec21de"
+  },
+  {
+    "no": 38,
+    "song": "Peddle Bike",
+    "artist": "Domani",
+    "album_cover": "https://i.scdn.co/image/ab67616d0000b2731d86f836e371b6684bec21de"
+  },
+  {
+    "no": 39,
+    "song": "Blow Me Kisses",
+    "artist": "Domani",
+    "album_cover": "https://i.scdn.co/image/ab67616d0000b27330f0f1fa9b806300b7402fdc"
+  },
+  {
+    "no": 40,
+    "song": "Battery Low",
+    "artist": "Wakadinali",
+    "album_cover": "https://i.scdn.co/image/ab67616d0000b2739ab9787ff9de9b4dc7afba9c"
+  },
+  {
+    "no": 41,
+    "song": "Extra Pressure",
+    "artist": "Wakadinali",
+    "album_cover": "https://i.scdn.co/image/ab67616d0000b273b6e0e5d527dd6296bd1b449f"
+  },
+  {
+    "no": 42,
+    "song": "Chinja Uwa",
+    "artist": "Wakadinali",
+    "album_cover": "https://i.scdn.co/image/ab67616d0000b273dd5887402f7c5d155da771a1"
+  },
+  {
+    "no": 43,
+    "song": "Ekelea Kazi",
+    "artist": "Wakadinali",
+    "album_cover": "https://i.scdn.co/image/ab67616d0000b273dd5887402f7c5d155da771a1"
+  },
+  {
+    "no": 44,
+    "song": "Kidungi",
+    "artist": "mbogi genje",
+    "album_cover": "https://i.scdn.co/image/ab67616d0000b2730d8edebe5e790b33bae052f2"
+  },
+  {
+    "no": 45,
+    "song": "Omoka",
+    "artist": "Boutross",
+    "album_cover": "https://i.scdn.co/image/ab67616d0000b2730a5d6a6ab5dd98abb4a19613"
+  },
+  {
+    "no": 46,
+    "song": "Wrong",
+    "artist": "Boutross",
+    "album_cover": "https://i.scdn.co/image/ab67616d0000b273ccaf42b3392d18836dfd63cd"
+  },
+  {
+    "no": 47,
+    "song": "Mtoto Ni Mrembo",
+    "artist": "Wakadinali",
+    "album_cover": "https://i.scdn.co/image/ab67616d0000b273aee9e351a9b528ab55aa66d6"
+  },
+  {
+    "no": 48,
+    "song": "Soul",
+    "artist": "Boutross",
+    "album_cover": "https://i.scdn.co/image/ab67616d0000b2730a5d6a6ab5dd98abb4a19613"
+  },
+  {
+    "no": 49,
+    "song": "Form",
+    "artist": "TNT Kenya",
+    "album_cover": "https://i.scdn.co/image/ab67616d0000b273e2c78c2703d718e248f7d33f"
+  },
+  {
+    "no": 50,
+    "song": "High Noon",
+    "artist": "Wakadinali",
+    "album_cover": "https://i.scdn.co/image/ab67616d0000b2736e142060468936d3d29737af"
+  },
+  {
+    "no": 51,
+    "song": "Mrenga",
+    "artist": "Wakadinali",
+    "album_cover": "https://i.scdn.co/image/ab67616d0000b273713f4ab2cd0e517ab87a6213"
+  },
+  {
+    "no": 52,
+    "song": "Moja Safi",
+    "artist": "Wakadinali",
+    "album_cover": "https://i.scdn.co/image/ab67616d0000b273aee9e351a9b528ab55aa66d6"
+  },
+  {
+    "no": 53,
+    "song": "Ngumi Mbwegze",
+    "artist": "mbogi genje",
+    "album_cover": "https://i.scdn.co/image/ab67616d0000b273124dbe7d1a83541e8d0e7cac"
+  },
+  {
+    "no": 54,
+    "song": "Vunja Magoti",
+    "artist": "Wakadinali",
+    "album_cover": "https://i.scdn.co/image/ab67616d0000b273744cc77c93cceef504bba304"
+  },
+  {
+    "no": 55,
+    "song": "Morio Anzenza",
+    "artist": "Wakadinali",
+    "album_cover": "https://i.scdn.co/image/ab67616d0000b273c24c821df84fedfe77035fac"
+  },
+  {
+    "no": 56,
+    "song": "Chesswoh",
+    "artist": "Wakadinali",
+    "album_cover": "https://i.scdn.co/image/ab67616d0000b273c24c821df84fedfe77035fac"
+  },
+  {
+    "no": 57,
+    "song": "Kim Jong Un",
+    "artist": "Wakadinali",
+    "album_cover": "https://i.scdn.co/image/ab67616d0000b273c24c821df84fedfe77035fac"
+  },
+  {
+    "no": 58,
+    "song": "Bank",
+    "artist": "Boutross",
+    "album_cover": "https://i.scdn.co/image/ab67616d0000b2730a5d6a6ab5dd98abb4a19613"
+  },
+  {
+    "no": 59,
+    "song": "Ki Dejavu",
+    "artist": "AJAY",
+    "album_cover": "https://i.scdn.co/image/ab67616d0000b273c16b80bd96f97ae5f52c39e8"
+  },
+  {
+    "no": 60,
+    "song": "Trapping",
+    "artist": "AJAY",
+    "album_cover": "https://i.scdn.co/image/ab67616d0000b273f685c8abdf79a97929c0f74e"
+  },
+  {
+    "no": 61,
+    "song": "Walevi",
+    "artist": "AJAY",
+    "album_cover": "https://i.scdn.co/image/ab67616d0000b2732756d7d328a4828efe3e83ea"
+  },
+  {
+    "no": 62,
+    "song": "Lockdown (Bonus Track)",
+    "artist": "Wakadinali",
+    "album_cover": "https://i.scdn.co/image/ab67616d0000b273c24c821df84fedfe77035fac"
+  },
+  {
+    "no": 63,
+    "song": "PSG",
+    "artist": "Official Bigi",
+    "album_cover": "https://i.scdn.co/image/ab67616d0000b273e1fb25b33138ea5d8b700b40"
+  },
+  {
+    "no": 64,
+    "song": "Tano Nane",
+    "artist": "Mr right",
+    "album_cover": "https://i.scdn.co/image/ab67616d0000b27362f8955eb0a4fdf62b3dc0ff"
+  },
+  {
+    "no": 65,
+    "song": "Story Ilianza",
+    "artist": "Boutross",
+    "album_cover": "https://i.scdn.co/image/ab67616d0000b2730a5d6a6ab5dd98abb4a19613"
+  },
+  {
+    "no": 66,
+    "song": "Woosh Woosh",
+    "artist": "Mr right",
+    "album_cover": "https://i.scdn.co/image/ab67616d0000b273843657e9716729743d878961"
+  },
+  {
+    "no": 67,
+    "song": "Kenya Sihami",
+    "artist": "HITMAN KAHT",
+    "album_cover": "https://i.scdn.co/image/ab67616d0000b2730cf78bc4d3489f973f38ed52"
+  },
+  {
+    "no": 68,
+    "song": "Sewersydaa (Gpin)",
+    "artist": "Wakadinali",
+    "album_cover": "https://i.scdn.co/image/ab67616d0000b273d1d2aee16f01b5653790fb84"
+  },
+  {
+    "no": 69,
+    "song": "Scar Mkadinali (STOKO)",
+    "artist": "Wakadinali",
+    "album_cover": "https://i.scdn.co/image/ab67616d0000b273b174500094a6a19a2013d348"
+  },
+  {
+    "no": 70,
+    "song": "Mbleina",
+    "artist": "AJAY",
+    "album_cover": "https://i.scdn.co/image/ab67616d0000b273c9d7131e7bf66e8ff03394a9"
+  },
+  {
+    "no": 71,
+    "song": "Eastlando",
+    "artist": "Wakadinali",
+    "album_cover": "https://i.scdn.co/image/ab67616d0000b27388eaa64849a1fc7473547146"
+  },
+  {
+    "no": 72,
+    "song": "Sewersydaa X Dyana cods(Riswa)",
+    "artist": "Wakadinali",
+    "album_cover": "https://i.scdn.co/image/ab67616d0000b2738f6ff858bda01bfa571b0fa3"
+  },
+  {
+    "no": 73,
+    "song": "Rarua Rarua",
+    "artist": "Wakadinali",
+    "album_cover": "https://i.scdn.co/image/ab67616d0000b273e70a4a277eb6f84f2ac97f9f"
+  },
+  {
+    "no": 74,
+    "song": "Scar Mkadinali (OPPS)",
+    "artist": "Wakadinali",
+    "album_cover": "https://i.scdn.co/image/ab67616d0000b273b3994ec0d62e0fcfc75752b7"
+  },
+  {
+    "no": 75,
+    "song": "Geri Inengi",
+    "artist": "Wakadinali",
+    "album_cover": "https://i.scdn.co/image/ab67616d0000b273b2543c972887ba28ecc9ff9d"
+  },
+  {
+    "no": 76,
+    "song": "Piga Lean",
+    "artist": "BURUKLYN BOYZ",
+    "album_cover": "https://i.scdn.co/image/ab67616d0000b2739b41a0e1296a4332c438901d"
+  },
+  {
+    "no": 77,
+    "song": "PREE",
+    "artist": "BURUKLYN BOYZ",
+    "album_cover": "https://i.scdn.co/image/ab67616d0000b2731a5b5cc47a7082045cc2ed1d"
+  },
+  {
+    "no": 78,
+    "song": "USIKAM HII SECTION",
+    "artist": "BURUKLYN BOYZ",
+    "album_cover": "https://i.scdn.co/image/ab67616d0000b2731a5b5cc47a7082045cc2ed1d"
+  },
+  {
+    "no": 79,
+    "song": "Charged Up",
+    "artist": "GTA",
+    "album_cover": "https://i.scdn.co/image/ab67616d0000b273aa70d8d0f0be001cdc505167"
+  },
+  {
+    "no": 80,
+    "song": "NO",
+    "artist": "Wakadinali",
+    "album_cover": "https://i.scdn.co/image/ab67616d0000b2730f1d039b42d7dd18a9f46aff"
+  }
+]
