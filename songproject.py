@@ -1,57 +1,76 @@
+import os
 import json
-import os #initiates the os library which will be used later on to open the playlists directories
-import random;
+import random
 
-folder_name="Playlists"   #You make sure you playlists folder is named 'Playlists'
 
-tracks=os.listdir(folder_name) # This command now reads the directory of the folder_name which is 'Paylists'. So your folder name for playlists must be saved Playlists.
+PLAYLIST_FOLDER="Playlists"
+PLAYLISTS_DIR=os.path.abspath(PLAYLIST_FOLDER)
 
-while True:  #initiating a loop which will make the program ask for input unless one decides to quit.
+playlists=[]
 
-    songName = input("\n\nEnter the song or artist name (Enter q to quit): ").lower()      #When one enters 'q' as input, we will terminate the while loop initiated above.
-    def readfile(file):
-        file_path =folder_name+"/"+file+".json"
 
-        if(not os.path.isfile(file_path)):   #If the directory is not found return false
-           return False
-        
-        with open(file_path) as f:
-            data = json.load(f) # Load the JSON data from the file into a Python dictionary
+def get_random(value):
+    random_index= random.randint(0,value-1)
+    return random_index
+
+def get_playlist():
+    with os.scandir(PLAYLISTS_DIR) as PLAYLISTS:
+        for PLAYLIST in PLAYLISTS:
+            if PLAYLIST.is_file() and PLAYLIST.name.endswith(".json"):
+                playlists.append(PLAYLIST.name)
+
+    return playlists
+
+PLAYLISTS=get_playlist()
+
+
+def choose_playlist(value):
+    song=value
+    for PLAYLIST in PLAYLISTS:
+        playlist_dir=os.path.join(PLAYLISTS_DIR,PLAYLIST)
+        try:
+            with open(playlist_dir,'r') as f:
+                data=json.load(f)
+                for content in data:
+                    if song in content["song"].lower() or song in content["artist"].lower():
+                        return PLAYLIST
+        except FileNotFoundError:
+            print(f"{PLAYLIST} file not found")
+            return None
+        except json.JSONDecodeError:
+            print(f"Error loading {PLAYLIST}. File is not valid JSON")
+            return None
+
+    print("Sorry! We couldn't find any playlist with that song or artist. Please try again.\n")
+    return None
+    
+
+def get_recommendations(found_playlist):
+    songs=[]
+    artists=[]
+    if not found_playlist:
+        return
+    print("\nThe recommendations: ")
+    playlist_dir=os.path.join(PLAYLISTS_DIR,found_playlist)
+    with open(playlist_dir, 'r') as f:
+        data=json.load(f)
+        for content in data:
+            songs.append(content["song"])
+            artists.append(content["artist"])
+
+        length=len(songs)
+        for i in range(1,4):
+            song_idx=get_random(length)
+            print(f"{i}. {songs[song_idx]} by {artists[song_idx]}")
             
-            total_songs = len(data) # Get the total number of songs in the JSON data
-            for song in data:
-                found = False
-
-                if song['song'].lower() == songName:
-                    found = True
-                    print("Below are great alternatives to ", song['song'], ":\n")
-                if song['artist'].lower() == songName:
-                    found = True
-                    print("Recommended alternatives for", song['artist'], "songs:\n")
-
-                if found:
-                    print(file ,"alternatives:")
-                    for i in range(3):
-                        song_number = random.randint(0, total_songs)
-                        song = data[song_number]['song'] # Access the 'song' key to get the song name
-                        artist = data[song_number]['artist'] # Access the 'artist' key to get the artist name
-                        print(str(i+1) + ". " + song + " by " + artist)
-                    return True
-            else:
-                return False
-            
-
-    if songName=="q":  #Here we now implement the loop termination. If one inserts q as input, we break. That means that the program stops running.
-        print("Thank you for using our recommendation system.... ")     #This is the message the user gets
-        break                                                       #The program is then terminated
-            
-
-    checker = False
-    for track in tracks:
-        track_name= str.split(track, ".")#Here we split the track name from the .json part. To prevent giving an output like "Bongo.json alternatives" but just "Bongo alternatives"
-        if(readfile(track_name[0]) and track_name[1] == "json"):  #checks if the file in the folder has a ".json" part. In short checking if it is json file.
-            checker = True
+def main():
+    while True:
+        user_input=input("Enter the song or artist's name, enter 'q' to quit: ").lower()
+        if user_input == 'q':
+            print("\n Thank you for using our system. EXiting..!\n")
             break
+        found_playlist=choose_playlist(user_input)
+        get_recommendations(found_playlist)
 
-    if checker == False:
-        print("Song not found. Can you please check the spelling.")
+main()
+
